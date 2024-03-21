@@ -1,0 +1,407 @@
+:root{
+    --clr:#198754;
+    --clr2:#20c997;
+    --clr3:#59ab6e;
+}
+
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+        
+#icons
+{
+    display: flex;
+    padding: 0 50px 0 50px;
+    gap: 10px;
+}
+#icons i
+{
+    position: relative;
+    top: 16px;
+    margin-left: 20px;
+}
+#icons p
+{
+    position:relative;
+    top: 16px;
+    
+}
+#icons1
+{
+    position: absolute;
+    right: 80px;
+}
+#icons1 a
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+#header1
+{
+    height: 80px;
+    background-color:#f8f9fa;
+    box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.10);
+    display: flex;
+    position: relative;
+}
+#header1 h1{
+    position: absolute;
+    left: 70px;
+    font-size: 60px;
+    color: #59ab6e;
+}
+
+#header1 ul
+{
+    display: flex;
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+    left: 460px;
+    gap:50px;
+}
+#header a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#header1 a
+{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.8);
+}
+#header1 #icons2
+{
+    display: flex;
+    position: relative;
+    gap: 30px;
+    top: 30px;
+    left: 735px;
+}
+#header1 a:hover
+{
+    color: var(--clr2);
+}
+.concept{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.concept p{
+    margin-top: 80px;
+    position: relative;
+    left: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight:100;
+    line-height: 30px;
+}
+.concept h1{
+    position: relative;
+    top: 80px;
+    left: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+}
+ .map-contain
+ {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);  
+}
+.map-contain iframe{
+    height: 600px;
+    width: 100%;
+}
+.googleforms{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.name #nam{
+    height:40px;
+    width: 350px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 150px;
+    left: 300px;
+    
+}
+.name #email{
+    height:40px;
+    width: 350px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 330px;
+    margin: 150px 0 150px 0;
+}
+.name #lbl1{
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.name #lbl2{
+    position: absolute;
+    left: 680px;
+    top: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.sub #sub{
+    height:40px;
+    width: 730px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 90px;
+    left: 245px;
+}
+.sub #lbl3{
+    position: relative;
+    bottom:130px;
+    left: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;  
+}
+.Mess #mess{
+    height:150px;
+    width: 730px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 40px;
+    left: 233px;
+}
+.Mess #lbl4{
+    position: relative;
+    bottom:210px;
+    left: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;  
+}
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+#btn4{
+    height: 60px;
+    width: 150px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #59ab6e;
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 20px;
+    left: 890px;
+}
+
+.name{
+    display: flex;
+    position: relative;
+
+}
+
+.footer{
+    font-weight: 100;
+    color: #cfd6e1;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#foot-content{
+    display: flex;
+    padding: 40px 100px 40px 100px;
+    gap: 120px;
+    position: relative;
+}
+
+.footer{
+    font-weight: 100;
+    color: #cfd6e1;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#foot-content{
+    display: flex;
+    padding: 40px 100px 40px 100px;
+    gap: 120px;
+    position: relative;
+}
+#foot1{
+    
+    width: 400px;
+}
+#foot2{
+    width: 400px;
+}
+#further{
+    width: 400px;
+}
+#foot1 h1{
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+#foot1:not(h1),#foot2:not(h1),#further:not(h1){
+    font-size: 20px;
+}
+#foot1 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 40px;
+}
+#foot1 p{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 40px;
+}
+#foot2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 40px;
+}
+#further a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 40px;
+}
+#foot2 h1{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+#further h1{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+.footer-icons{
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    gap: 10px;
+
+}
+.footer-icons a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-icons #i1,#i2,#i3,#i4{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    left: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+#i1 a,#i2 a,#i3 a,#i4 a {
+    position: relative;
+    top: 6px;
+}
+input[type=email]{
+    height: 40px;
+    width: 200px;
+    margin-left: 700px;
+    border: 0.5px solid rgba(255,255, 255, 0.4);
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--clr);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+#footbottom{
+    height: 70px;
+    position: relative;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+}
+#footbottom p{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    padding: 10px 100px 10px 100px;
+}
+#footbottom a{
+    color: rgba(255, 255, 255, 0.7);
+}
+#foot1 a:hover{
+    color: var(--clr3);
+}
+#foot2 a:hover{
+    color: var(--clr3);
+}
+#further a:hover{
+    color: var(--clr3);
+}
+input[type=email]:focus
+{
+    outline: 2px solid #0d6efd;
+
+}
+
+#i1:hover{
+    background-color: white;
+}
+#i1:hover a{
+    color: black;
+}
+#i2:hover{
+    background-color: white;
+}
+#i2:hover a{
+    color: black;
+}
+#i3:hover{
+    background-color: white;
+}
+#i3:hover a{
+    color: black;
+}
+#i4:hover{
+    background-color: white;
+}
+#i4:hover a{
+    color: black;
+}

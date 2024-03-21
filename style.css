@@ -1,0 +1,534 @@
+:root{
+	--clr: #59ab6e;
+	--clr2:#20c997;
+	--clr3:#59ab6e;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header{
+	height: 50px;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+		
+#icons
+{
+	display: flex;
+	padding: 0 50px 0 50px;
+	gap: 10px;
+}
+#icons i
+{
+	position: relative;
+	top: 16px;
+	margin-left: 20px;
+}
+#icons p
+{
+	position: relative;
+	top: 5px;
+}
+
+#icons1
+{
+	position: absolute;
+	right: 80px;
+}
+#icons1 a
+{
+	color: rgba(255, 255, 255, 0.5);
+}
+#header1
+{
+	height: 80px;
+	background-color: #f8f9fa;
+	display: flex;
+}
+#header1 h1{
+	position: absolute;
+	top: 50px;
+	left: 65px;
+	font-size: 60px;
+	color: var(--clr);
+}
+
+#header1 ul
+{
+	display: flex;
+	font-size: 25px;
+	position: relative;
+	top: 30px;
+	left: 450px;
+	gap:50px;
+}
+#header a
+{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#header1 a
+{
+	text-decoration: none;
+	color:rgba(0, 0, 0, 0.8);
+}
+#header1 #icons2
+{
+	display: flex;
+	position: relative;
+	gap: 30px;
+	top: 30px;
+	left: 700px;
+}
+.bootstrap{
+	height: 700px;
+	width: 100%;
+}
+
+.content{
+	height: 600px;
+	width: 100%;
+	margin: 50px 0 50px 0 ;
+}
+.content h1
+{
+	margin-top: 50px;
+	font-size: 50px;
+	font-weight: 300;
+	font-family: Roboto, sans-serif;
+	line-height: 50px;
+	word-spacing: 10px;
+	color: #212529;
+	text-align: center;
+}
+.content p
+{
+	margin-bottom: 50px;
+	color: rgba(0, 0, 0, 0.6);
+	font-stretch: ultra-condensed;
+	font-size: 22px;
+	font-family: Roboto, sans-serif;
+	line-height: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+#images{
+	display: flex;
+	margin: 0 80px 0 80px;
+	position: relative;
+	left: 50px;
+	gap: 50px;
+	cursor: pointer;
+}
+label{
+	text-align: center;
+	position: relative;
+	left: 105px;
+	height: 100px;
+	width: 100px;
+	font-size: 20px;
+}
+input[type=button]{
+	height: 40px;
+	width: 100px;
+	position: relative;
+	top: 50px;
+	font-size: 20px;
+	color:white;
+	font-weight: 100;
+	background-color: var(--clr);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	
+}
+.content2{
+	height: 800px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.10); 
+	padding-bottom: 50px;	
+}
+.content2 h1{
+	padding-top: 40px;
+	font-size: 50px;
+	font-weight: 300;
+	font-family: Roboto, sans-serif;
+	line-height: 50px;
+	word-spacing: 10px;
+	color: #212529;
+	text-align: center;
+}
+.content2 #rep{
+	color: rgba(0, 0, 0, 0.6);
+	font-stretch: ultra-condensed;
+	font-size: 22px;
+	font-family: Roboto, sans-serif;
+	line-height: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+.content2 p{
+	color: #212529;
+	font-stretch: ultra-condensed;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+.shoe_images{
+	display: flex;
+	gap: 90px;
+	position: absolute;
+	margin: 0 150px 0 150px;
+	padding: 10px 0 10px 0;
+}
+#gym{
+	background-color: #fff;
+	height: 485px;
+	width: 300px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#gym img{
+	height: 250px;
+	width: 300px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#gym #star{
+	display: flex;
+	position: absolute;
+	margin-left: 10px;
+	gap: 5px;
+	margin-top: 10px;
+}
+#gym h3
+{
+	color: rgba(0, 0, 0, 0.3);
+	font-stretch: condensed;
+}
+#gym p,h2,h3
+{
+	margin:0 10px 0 10px;
+}
+#gym h2
+{
+	padding:20px 0 10px 0;
+	color: rgba(0, 0, 0, 0.6);
+}
+#gym p
+{
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+#gym #star :not(p)
+{
+	color: gold;
+}
+#star p
+{
+	position: relative;
+	left: 90px;
+}
+#nike img{
+	height: 250px;
+	width: 300px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#nike{
+	background-color: #fff;
+	height: 485px;
+	width: 300px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#nike #star2{
+	display: flex;
+	position: absolute;
+	margin-left: 10px;
+	gap: 5px;
+	margin-top: 10px;
+}
+#nike #star2 :not(p){
+	color: gold;
+}
+#nike p,h2,h3{
+	margin:0 10px 0 10px;
+}
+#nike h3{
+	color: rgba(0, 0, 0, 0.3);
+	font-stretch: condensed;
+}
+#nike h2{
+	padding:20px 0 10px 0;
+	color: rgba(0, 0, 0, 0.6);
+}
+#nike p{
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+#star2 p{
+	position: relative;
+	left: 90px;
+}
+#summer{
+	background-color: #fff;
+	height: 485px;
+	width: 300px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#summer img
+{
+	height: 250px;
+	width: 300px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#summer #star3{
+	display: flex;
+	position: absolute;
+	margin-left: 10px;
+	gap: 5px;
+	margin-top: 10px;
+}
+#summer #star3 :not(p){
+	color: gold;
+}
+#summer p,h2,h3{
+	margin:0 10px 0 10px;
+}
+#summer h2{
+	padding:20px 0 5px 0;
+	color: rgba(0, 0, 0, 0.6);	
+}
+#summer h3
+{
+	position: absolute;
+	color: rgba(0, 0, 0, 0.3);
+	font-stretch: condensed;
+}
+#summer p{
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+#star3 p{
+	position: relative;
+	left: 90px;
+}
+.FD{
+	color: #212529;
+	word-spacing: 5px;
+	font-stretch: ultra-condensed;
+	font-size: 22px;
+	font-family: Roboto, sans-serif;
+	line-height: 25px;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+/*footer*/
+.footer{
+	font-weight: 100;
+	color: #cfd6e1;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+#foot-content{
+	display: flex;
+	padding: 40px 100px 40px 100px;
+	gap: 120px;
+	position: relative;
+}
+#foot1{
+	
+	width: 400px;
+}
+#foot2{
+	width: 400px;
+}
+#further{
+	width: 400px;
+}
+#foot1 h1{
+	font-size: 50px;
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+	padding: 20px 0 20px 0;
+	border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+#foot1:not(h1),#foot2:not(h1),#further:not(h1){
+	font-size: 20px;
+}
+#foot1 a, p,#foot2 a,#further a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 40px;
+}
+
+#foot2 h1{
+	color: rgba(255, 255, 255, 0.6);
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+	font-size: 50px;
+	padding: 20px 0 20px 0;
+	border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+#further h1{
+	color: rgba(255, 255, 255, 0.6);
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+	font-size: 50px;
+	padding: 20px 0 20px 0;
+	border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+.footer-icons{
+	position: relative;
+	display: flex;
+	font-size: 30px;
+	gap: 10px;
+
+}
+.footer-icons a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+.footer-icons #i1,#i2,#i3,#i4{
+	height: 45px;
+	width: 45px;
+	position: relative;
+	left: 100px;
+	border-radius: 50%;
+	text-align: center;
+	border: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+
+#i1 a,#i2 a,#i3 a,#i4 a {
+	position: relative;
+	top: 0.5px;
+}
+
+input[type=email]{
+	height: 40px;
+	width: 200px;
+	margin-left: 700px;
+	border: 0.5px solid rgba(255,255, 255, 0.4);
+	border-radius: 5px;
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+input::placeholder{
+	font-size: 16px;
+	padding-left: 10px;
+	position: absolute;
+	top: 10px;
+}
+#sub{
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--clr);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+#footbottom{
+	height: 70px;
+	position: relative;
+	background-color: black;
+	color: rgba(255, 255, 255, 0.7);
+}
+#footbottom p{
+	font-size: 20px;
+	position: absolute;
+	top: 10px;
+	padding: 10px 100px 10px 100px;
+}
+#footbottom a{
+	color: rgba(255, 255, 255, 0.7);
+}
+
+/*hover*/
+#shoe1:hover
+{
+	transition: 1s;
+	transform: rotate(180deg);
+
+}
+
+#shoe2:hover{
+
+	transition: 1s;
+	transform: rotate(-180deg);
+	
+}
+#shoe3:hover{
+	transition: 1s;
+	transform:rotate(200deg);
+	
+}
+input[type=email]:focus
+{
+	outline: 2px solid #0d6efd;
+
+}
+#header1 a:hover
+{
+ 	color: var(--clr2);
+}
+#foot1 a:hover{
+	color: var(--clr3);
+}
+#foot2 a:hover{
+	color: var(--clr3);
+}
+#further a:hover{
+	color: var(--clr3);
+}
+#i1:hover{
+	background-color: white;
+}
+#i1:hover a{
+	color: black;
+}
+#i2:hover{
+	background-color: white;
+}
+#i2:hover a{
+	color: black;
+}
+#i3:hover{
+	background-color: white;
+}
+#i3:hover a{
+	color: black;
+}
+#i4:hover{
+	background-color: white;
+}
+#i4:hover a{
+	color: black;
+}
